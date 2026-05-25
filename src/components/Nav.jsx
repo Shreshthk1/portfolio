@@ -38,7 +38,7 @@ export const Nav = (props) => {
 
     return(
     <>
-        <nav className="fixed left-0 z-40 flex w-full px-3 sm:px-4 md:px-8 py-2 bg-transparent md:justify-between top-2">
+        <nav className="fixed left-0 z-40 flex w-full px-3 sm:px-4 md:px-8 py-3 bg-black/60 backdrop-blur-md border-b border-white/[0.06] md:justify-between top-0">
             {/* Hamburger */}
             <div className="flex flex-col justify-between w-6 h-6 lg:hidden cursor-pointer" onClick={() => {toggleHamburger(!hamburgerOpen)}}>
                 <div className={`w-full h-1 bg-white rounded-lg transition-all duration-300 ${hamburgerOpen ? 'rotate-45 translate-y-2.5' : ''}`}></div>
