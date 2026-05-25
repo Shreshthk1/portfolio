@@ -51,3 +51,12 @@ width: 5px;
   pointer-events: none;
   z-index: 0;
 }
+
+@media (max-width: 767px) {
+  .hero-dots::before {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 0);
+    background-size: 36px 36px;
+    mask-image: radial-gradient(ellipse at 50% 50%, black 10%, transparent 90%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 50%, black 10%, transparent 90%);
+  }
+}
