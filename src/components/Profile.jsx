@@ -181,7 +181,7 @@ export const Profile = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-start justify-start lg:justify-end">
+                        <div className="order-first lg:order-last flex items-start justify-start lg:justify-end lg:sticky lg:top-24">
                             <img
                                 src={mesitting}
                                 alt="Shreshth Kumar"
