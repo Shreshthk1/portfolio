@@ -3,12 +3,12 @@ import pearlImg from "../assets/images/Pearl_Printers.png"
 import riteSliceImg from "../assets/images/RiteSlice.png"
 
 export const ProjectOverview = () => {
-    const ProjectCard = ({ title, description, image }) => (
+    const ProjectCard = ({ title, description, image, gradient }) => (
         <div className="group cursor-pointer">
             <div className="relative overflow-hidden rounded-xl w-full h-48 sm:h-56 md:h-64 lg:h-72">
                 <div
                     className="absolute inset-0 bg-zinc-900 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
-                    style={image ? { backgroundImage: `url(${image})` } : {}}
+                    style={image ? { backgroundImage: `url(${image})` } : gradient ? { background: gradient } : {}}
                 ></div>
             </div>
             <div className="pt-4 pb-2 px-1">
@@ -38,6 +38,7 @@ export const ProjectOverview = () => {
             title: 'Act It Out',
             description: 'A social game that brings people together through creative expression.',
             image: null,
+            gradient: 'linear-gradient(135deg, #1a0a2e 0%, #2d1154 40%, #1e0a3c 70%, #0d0618 100%)',
         },
     ]
 
