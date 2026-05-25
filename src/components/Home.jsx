@@ -54,7 +54,7 @@ export const Home = () => {
                         {/* Tagline */}
                         <p
                             style={fadeUp(520).style}
-                            className={`font-SFThin text-white/20 text-xs sm:text-sm mt-6 sm:mt-8 tracking-wide ${fadeUp(520).className}`}
+                            className={`font-SFThin text-white/40 sm:text-white/20 text-xs sm:text-sm mt-6 sm:mt-8 tracking-wide ${fadeUp(520).className}`}
                         >
                             Building things that work for people.
                         </p>
@@ -64,8 +64,8 @@ export const Home = () => {
                             style={fadeUp(750).style}
                             className={`flex items-center justify-center gap-3 mt-8 sm:mt-10 ${fadeUp(750).className}`}
                         >
-                            <a href="/showcase" className="font-SFThin text-white/50 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-5 py-2.5 rounded-full hover:border-white/30 hover:text-white/75 transition-all duration-300">View Work</a>
-                            <a href="/contact" className="font-SFThin text-white/50 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-5 py-2.5 rounded-full hover:border-white/30 hover:text-white/75 transition-all duration-300">Get in Touch</a>
+                            <a href="/showcase" className="font-SFThin text-white/65 sm:text-white/50 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase border border-white/25 sm:border-white/15 px-5 py-2.5 rounded-full hover:border-white/40 hover:text-white/85 sm:hover:border-white/30 sm:hover:text-white/75 transition-all duration-300">View Work</a>
+                            <a href="/contact" className="font-SFThin text-white/65 sm:text-white/50 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase border border-white/25 sm:border-white/15 px-5 py-2.5 rounded-full hover:border-white/40 hover:text-white/85 sm:hover:border-white/30 sm:hover:text-white/75 transition-all duration-300">Get in Touch</a>
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 left-6 sm:left-10 ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/15 text-[9px] tracking-[0.3em] uppercase">
+                        <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">
                             Calgary, AB
                         </span>
                     </div>
@@ -84,7 +84,7 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/20 text-[9px] tracking-widest uppercase">Scroll</span>
+                        <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
                         <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
                     </div>
 
@@ -93,7 +93,7 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 right-6 sm:right-10 ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/15 text-[9px] tracking-[0.3em] uppercase">
+                        <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">
                             2026
                         </span>
                     </div>

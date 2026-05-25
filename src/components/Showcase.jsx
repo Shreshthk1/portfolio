@@ -50,7 +50,7 @@ export const Showcase = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/20 text-[9px] tracking-widest uppercase">Scroll</span>
+                    <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
                     <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
                 </div>
             </section>
@@ -62,7 +62,7 @@ export const Showcase = () => {
                     className={`transition-all duration-700 delay-150 ${isGridVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-10 sm:mb-14">
-                        <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Projects</span>
+                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Projects</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -81,18 +81,18 @@ export const Showcase = () => {
                             </div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase">Web App</p>
-                                <span className="font-SFThin text-white/20 text-[8px] tracking-[0.3em] uppercase border border-white/10 px-2.5 py-1 rounded-full">Featured</span>
+                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Web App</p>
+                                <span className="font-SFThin text-white/45 sm:text-white/20 text-[9px] sm:text-[8px] tracking-[0.3em] uppercase border border-white/20 sm:border-white/10 px-2.5 py-1 rounded-full">Featured</span>
                             </div>
 
                             <div className="relative z-10">
                                 <h2 className="font-SFThin text-white leading-none tracking-tight" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}>Event Sphere</h2>
-                                <p className="font-SFThin text-white/40 text-xs sm:text-sm mt-3 leading-relaxed max-w-xs">
+                                <p className="font-SFThin text-white/60 sm:text-white/40 text-xs sm:text-sm mt-3 leading-relaxed max-w-xs">
                                     Full-stack registration platform for an Annual Sports Festival. Participants are auto-assigned to color-coded competition tables by age group and gender. Admin dashboard — secured via Auth0 — handles attendance, analytics, and real-time table management.
                                 </p>
                                 <div className="flex flex-wrap gap-1.5 mt-4">
                                     {['React', 'Vite', 'Express.js', 'MongoDB', 'Auth0', 'WebSockets', 'Chart.js', 'Nodemailer', 'Tailwind'].map(t => (
-                                        <span key={t} className="font-SFThin text-white/40 text-[8px] tracking-[0.12em] uppercase border border-white/15 px-2.5 py-1 rounded-full">{t}</span>
+                                        <span key={t} className="font-SFThin text-white/60 sm:text-white/40 text-[9px] sm:text-[8px] tracking-[0.12em] uppercase border border-white/25 sm:border-white/15 px-2.5 py-1 rounded-full">{t}</span>
                                     ))}
                                 </div>
                             </div>
@@ -106,16 +106,16 @@ export const Showcase = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-black/20 pointer-events-none"></div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase">Business Site</p>
+                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Business Site</p>
                                 <span className="font-SFThin text-white/[0.05] text-5xl leading-none font-bold select-none">02</span>
                             </div>
 
                             <div className="relative z-10">
                                 <h2 className="font-SFThin text-white text-2xl sm:text-3xl leading-none tracking-tight">Pearl Printers</h2>
-                                <p className="font-SFThin text-white/35 text-xs mt-2 leading-relaxed">Commercial website for a local printing business — services, gallery, and contact.</p>
+                                <p className="font-SFThin text-white/55 sm:text-white/35 text-xs mt-2 leading-relaxed">Commercial website for a local printing business — services, gallery, and contact.</p>
                                 <div className="flex flex-wrap gap-1.5 mt-3">
                                     {['React', 'Tailwind', 'Node.js', 'Figma'].map(t => (
-                                        <span key={t} className="font-SFThin text-white/40 text-[8px] tracking-[0.12em] uppercase border border-white/15 px-2.5 py-1 rounded-full">{t}</span>
+                                        <span key={t} className="font-SFThin text-white/60 sm:text-white/40 text-[9px] sm:text-[8px] tracking-[0.12em] uppercase border border-white/25 sm:border-white/15 px-2.5 py-1 rounded-full">{t}</span>
                                     ))}
                                 </div>
                             </div>
@@ -129,16 +129,16 @@ export const Showcase = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-black/20 pointer-events-none"></div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase">Web App</p>
+                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Web App</p>
                                 <span className="font-SFThin text-white/[0.05] text-5xl leading-none font-bold select-none">03</span>
                             </div>
 
                             <div className="relative z-10">
                                 <h2 className="font-SFThin text-white text-2xl sm:text-3xl leading-none tracking-tight">RiteSlice</h2>
-                                <p className="font-SFThin text-white/35 text-xs mt-2 leading-relaxed">Concept site for a pizza shop — menu, ordering flow, and brand identity built from scratch.</p>
+                                <p className="font-SFThin text-white/55 sm:text-white/35 text-xs mt-2 leading-relaxed">Concept site for a pizza shop — menu, ordering flow, and brand identity built from scratch.</p>
                                 <div className="flex flex-wrap gap-1.5 mt-3">
                                     {['React', 'Node.js', 'SQL', 'Tailwind'].map(t => (
-                                        <span key={t} className="font-SFThin text-white/40 text-[8px] tracking-[0.12em] uppercase border border-white/15 px-2.5 py-1 rounded-full">{t}</span>
+                                        <span key={t} className="font-SFThin text-white/60 sm:text-white/40 text-[9px] sm:text-[8px] tracking-[0.12em] uppercase border border-white/25 sm:border-white/15 px-2.5 py-1 rounded-full">{t}</span>
                                     ))}
                                 </div>
                             </div>
@@ -157,21 +157,21 @@ export const Showcase = () => {
 
                             <div className="relative z-10">
                                 <div className="flex items-center gap-3 mb-3">
-                                    <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase">Social Game</p>
-                                    <span className="flex items-center gap-1.5 font-SFThin text-white/30 text-[8px] tracking-[0.25em] uppercase border border-white/10 px-2.5 py-1 rounded-full">
+                                    <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Social Game</p>
+                                    <span className="flex items-center gap-1.5 font-SFThin text-white/55 sm:text-white/30 text-[9px] sm:text-[8px] tracking-[0.25em] uppercase border border-white/20 sm:border-white/10 px-2.5 py-1 rounded-full">
                                         <span className="w-1.5 h-1.5 rounded-full bg-amber-400/70 animate-pulse"></span>
                                         In Progress
                                     </span>
                                 </div>
                                 <h2 className="font-SFThin text-white text-3xl sm:text-4xl lg:text-5xl leading-none tracking-tight">Act It Out</h2>
-                                <p className="font-SFThin text-white/35 text-xs sm:text-sm mt-3 leading-relaxed max-w-sm">
+                                <p className="font-SFThin text-white/55 sm:text-white/35 text-xs sm:text-sm mt-3 leading-relaxed max-w-sm">
                                     A social party game that brings people together through creative expression and collaborative play.
                                 </p>
                             </div>
 
                             <div className="relative z-10 flex flex-wrap gap-1.5 sm:pb-1">
                                 {['React', 'JavaScript', 'Node.js'].map(t => (
-                                    <span key={t} className="font-SFThin text-white/40 text-[8px] sm:text-[9px] tracking-[0.12em] uppercase border border-white/15 px-2.5 py-1 rounded-full">{t}</span>
+                                    <span key={t} className="font-SFThin text-white/60 sm:text-white/40 text-[9px] tracking-[0.12em] uppercase border border-white/25 sm:border-white/15 px-2.5 py-1 rounded-full">{t}</span>
                                 ))}
                             </div>
                         </div>

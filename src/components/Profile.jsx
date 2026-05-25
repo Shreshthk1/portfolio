@@ -91,7 +91,7 @@ export const Profile = () => {
                         className={`flex items-center justify-center gap-3 sm:gap-5 mt-8 ${fadeUp(380).className}`}
                     >
                         <span className="block w-5 sm:w-10 h-px bg-white/20"></span>
-                        <p className="font-SFThin text-white/30 text-[9px] sm:text-[11px] tracking-[0.38em] uppercase">Chris Pine</p>
+                        <p className="font-SFThin text-white/50 sm:text-white/30 text-[11px] tracking-[0.38em] uppercase">Chris Pine</p>
                         <span className="block w-5 sm:w-10 h-px bg-white/20"></span>
                     </div>
                 </div>
@@ -100,14 +100,14 @@ export const Profile = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-6 sm:left-10 ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/15 text-[9px] tracking-[0.3em] uppercase">Mount Royal University</span>
+                    <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">Mount Royal University</span>
                 </div>
 
                 <div
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/20 text-[9px] tracking-widest uppercase">Scroll</span>
+                    <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
                     <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
                 </div>
 
@@ -115,7 +115,7 @@ export const Profile = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 right-6 sm:right-10 ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/15 text-[9px] tracking-[0.3em] uppercase">BCS · CIS</span>
+                    <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">BCS · CIS</span>
                 </div>
             </section>
 
@@ -126,7 +126,7 @@ export const Profile = () => {
                     className={`transition-all duration-700 delay-150 ${isAboutVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
-                        <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">About</span>
+                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">About</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -142,24 +142,24 @@ export const Profile = () => {
                                 Outside the code, I've worked in high-pressure customer-facing roles that sharpened how I communicate, pitch, and deliver. I believe the best engineers understand people as well as they understand systems.
                             </p>
 
-                            <p className="font-SFThin text-white/25 text-sm italic mt-10 leading-relaxed">
+                            <p className="font-SFThin text-white/45 sm:text-white/25 text-sm italic mt-10 leading-relaxed">
                                 Technology only matters when it genuinely helps people.
                             </p>
 
                             {/* Education card */}
                             <div className="mt-12 border border-white/[0.07] rounded-2xl p-6 flex flex-col gap-4">
-                                <span className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase">Education</span>
+                                <span className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Education</span>
 
                                 <div>
                                     <p className="font-SFLight text-white text-sm sm:text-base">Bachelor of Computer Information Systems</p>
                                     <p className="font-SFThin text-white/40 text-xs sm:text-sm mt-1">Mount Royal University · Sep 2018 — Sep 2023</p>
                                 </div>
                                 <div className="flex flex-wrap gap-2">
-                                    <span className="font-SFThin text-white/35 text-[9px] tracking-[0.2em] uppercase border border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2019</span>
-                                    <span className="font-SFThin text-white/35 text-[9px] tracking-[0.2em] uppercase border border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2020</span>
-                                    <span className="font-SFThin text-white/35 text-[9px] tracking-[0.2em] uppercase border border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2021</span>
+                                    <span className="font-SFThin text-white/55 sm:text-white/35 text-[10px] sm:text-[9px] tracking-[0.2em] uppercase border border-white/20 sm:border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2019</span>
+                                    <span className="font-SFThin text-white/55 sm:text-white/35 text-[10px] sm:text-[9px] tracking-[0.2em] uppercase border border-white/20 sm:border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2020</span>
+                                    <span className="font-SFThin text-white/55 sm:text-white/35 text-[10px] sm:text-[9px] tracking-[0.2em] uppercase border border-white/20 sm:border-white/10 px-3 py-1 rounded-full">Dean's Honor Roll 2021</span>
                                 </div>
-                                <p className="font-SFThin text-white/20 text-[10px] tracking-[0.2em] uppercase">Capstone · Shira Migration Platform</p>
+                                <p className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[10px] tracking-[0.2em] uppercase">Capstone · Shira Migration Platform</p>
 
                                 <div className="h-px bg-white/[0.06]"></div>
 
@@ -175,7 +175,7 @@ export const Profile = () => {
                                             <p className="font-SFLight text-white text-sm">Data Analysis</p>
                                             <p className="font-SFThin text-white/40 text-xs mt-0.5">Cloudy Data · March 2026</p>
                                         </div>
-                                        <span className="font-SFThin text-white/25 text-[8px] tracking-[0.25em] uppercase border border-white/10 px-2.5 py-1 rounded-full shrink-0 mt-0.5">In Progress</span>
+                                        <span className="font-SFThin text-white/50 sm:text-white/25 text-[9px] sm:text-[8px] tracking-[0.25em] uppercase border border-white/20 sm:border-white/10 px-2.5 py-1 rounded-full shrink-0 mt-0.5">In Progress</span>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@ export const Profile = () => {
                     className={`transition-all duration-700 delay-150 ${isExpVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
-                        <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Experience</span>
+                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Experience</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -212,9 +212,9 @@ export const Profile = () => {
                                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-0">
                                     <div>
                                         <h2 className="font-SFLight text-white text-base sm:text-lg">{item.role}</h2>
-                                        <p className="font-SFThin text-white/35 text-xs sm:text-sm mt-1">{item.company}</p>
+                                        <p className="font-SFThin text-white/55 sm:text-white/35 text-xs sm:text-sm mt-1">{item.company}</p>
                                     </div>
-                                    <span className="font-SFThin text-white/20 text-[10px] tracking-[0.2em] uppercase shrink-0">{item.period}</span>
+                                    <span className="font-SFThin text-white/45 sm:text-white/20 text-[11px] sm:text-[10px] tracking-[0.2em] uppercase shrink-0">{item.period}</span>
                                 </div>
 
                                 {item.achievements && (
@@ -222,7 +222,7 @@ export const Profile = () => {
                                         {item.achievements.map((ach, i) => (
                                             <li key={i} className="flex items-start gap-3">
                                                 <span className="mt-[7px] w-1 h-1 rounded-full bg-white/20 shrink-0"></span>
-                                                <span className="font-SFThin text-white/35 text-xs sm:text-sm leading-relaxed">{ach}</span>
+                                                <span className="font-SFThin text-white/55 sm:text-white/35 text-xs sm:text-sm leading-relaxed">{ach}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -240,7 +240,7 @@ export const Profile = () => {
                     className={`transition-all duration-700 delay-150 ${isStackVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
-                        <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Stack</span>
+                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Stack</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -248,7 +248,7 @@ export const Profile = () => {
                         {stack.map((tech, idx) => (
                             <span
                                 key={idx}
-                                className="font-SFThin text-white/45 text-[10px] sm:text-xs tracking-[0.18em] uppercase border border-white/10 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full"
+                                className="font-SFThin text-white/60 sm:text-white/45 text-[11px] sm:text-xs tracking-[0.18em] uppercase border border-white/20 sm:border-white/10 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full"
                             >
                                 {tech}
                             </span>
@@ -259,7 +259,7 @@ export const Profile = () => {
                         <a
                             href="/resume.pdf"
                             download="Shreshth_Kumar_Resume.pdf"
-                            className="inline-flex items-center gap-3 font-SFThin text-white/50 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-6 py-3 rounded-full hover:border-white/30 hover:text-white/75 transition-all duration-300"
+                            className="inline-flex items-center gap-3 font-SFThin text-white/70 sm:text-white/50 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase border border-white/25 sm:border-white/15 px-6 py-3 rounded-full hover:border-white/40 hover:text-white/90 sm:hover:border-white/30 sm:hover:text-white/75 transition-all duration-300"
                         >
                             Download Resume
                             <span className="text-white/30">↓</span>

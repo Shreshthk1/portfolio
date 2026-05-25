@@ -54,7 +54,7 @@ export const Contact = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/20 text-[9px] tracking-widest uppercase">Scroll</span>
+                    <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
                     <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
                 </div>
             </section>
@@ -66,7 +66,7 @@ export const Contact = () => {
                     className={`transition-all duration-700 delay-150 ${isContentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
-                        <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Get in Touch</span>
+                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Get in Touch</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -80,14 +80,14 @@ export const Contact = () => {
                             <p className="font-SFThin text-white/50 text-base sm:text-lg leading-relaxed mt-6">
                                 Whether it's a freelance project, a collaboration, or just a conversation — I'm open to it. Drop me a message and I'll get back to you.
                             </p>
-                            <p className="font-SFThin text-white/25 text-sm mt-4 leading-relaxed">
+                            <p className="font-SFThin text-white/45 sm:text-white/25 text-sm mt-4 leading-relaxed">
                                 Based in Calgary, AB · Available for remote work.
                             </p>
 
                             {/* Availability indicator */}
                             <div className="flex items-center gap-2.5 mt-10">
                                 <span className="w-2 h-2 rounded-full bg-emerald-500/80 animate-pulse"></span>
-                                <span className="font-SFThin text-white/35 text-[10px] tracking-[0.3em] uppercase">Available for freelance</span>
+                                <span className="font-SFThin text-white/55 sm:text-white/35 text-[11px] sm:text-[10px] tracking-[0.3em] uppercase">Available for freelance</span>
                             </div>
                         </div>
 
@@ -97,20 +97,20 @@ export const Contact = () => {
                             {/* Email card */}
                             <div className="relative overflow-hidden rounded-2xl border border-white/[0.07] bg-black p-6 sm:p-8">
                                 <div className="absolute inset-0 bg-gradient-to-br from-white/[0.02] to-transparent pointer-events-none"></div>
-                                <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase mb-4">Email</p>
+                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase mb-4">Email</p>
                                 <p className="font-SFThin text-white text-base sm:text-lg tracking-tight break-all">
                                     shreshthkumar1106@gmail.com
                                 </p>
                                 <div className="flex gap-3 mt-6">
                                     <a
                                         href="mailto:shreshthkumar1106@gmail.com"
-                                        className="font-SFThin text-white/60 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-4 py-2 rounded-full hover:border-white/30 hover:text-white/80 transition-all duration-300"
+                                        className="font-SFThin text-white/75 sm:text-white/60 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase border border-white/25 sm:border-white/15 px-4 py-2 rounded-full hover:border-white/40 hover:text-white/90 sm:hover:border-white/30 sm:hover:text-white/80 transition-all duration-300"
                                     >
                                         Send Email
                                     </a>
                                     <button
                                         onClick={copyEmail}
-                                        className="font-SFThin text-white/60 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-4 py-2 rounded-full hover:border-white/30 hover:text-white/80 transition-all duration-300"
+                                        className="font-SFThin text-white/75 sm:text-white/60 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase border border-white/25 sm:border-white/15 px-4 py-2 rounded-full hover:border-white/40 hover:text-white/90 sm:hover:border-white/30 sm:hover:text-white/80 transition-all duration-300"
                                     >
                                         {copied ? 'Copied!' : 'Copy'}
                                     </button>
@@ -125,10 +125,10 @@ export const Contact = () => {
                                 className="group relative overflow-hidden rounded-2xl border border-white/[0.07] bg-black p-6 flex items-center justify-between hover:border-white/15 transition-all duration-300"
                             >
                                 <div>
-                                    <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase mb-1">LinkedIn</p>
+                                    <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase mb-1">LinkedIn</p>
                                     <p className="font-SFThin text-white/70 text-sm group-hover:text-white transition-colors duration-300">Shreshth Kumar</p>
                                 </div>
-                                <span className="font-SFThin text-white/20 text-[9px] tracking-[0.25em] uppercase group-hover:text-white/40 transition-colors duration-300">↗</span>
+                                <span className="font-SFThin text-white/45 sm:text-white/20 text-[11px] sm:text-[9px] tracking-[0.25em] uppercase group-hover:text-white/60 sm:group-hover:text-white/40 transition-colors duration-300">↗</span>
                             </a>
 
                             {/* Instagram card */}
@@ -139,10 +139,10 @@ export const Contact = () => {
                                 className="group relative overflow-hidden rounded-2xl border border-white/[0.07] bg-black p-6 flex items-center justify-between hover:border-white/15 transition-all duration-300"
                             >
                                 <div>
-                                    <p className="font-SFThin text-white/25 text-[9px] tracking-[0.4em] uppercase mb-1">Instagram</p>
+                                    <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase mb-1">Instagram</p>
                                     <p className="font-SFThin text-white/70 text-sm group-hover:text-white transition-colors duration-300">@shreshthk1106</p>
                                 </div>
-                                <span className="font-SFThin text-white/20 text-[9px] tracking-[0.25em] uppercase group-hover:text-white/40 transition-colors duration-300">↗</span>
+                                <span className="font-SFThin text-white/45 sm:text-white/20 text-[11px] sm:text-[9px] tracking-[0.25em] uppercase group-hover:text-white/60 sm:group-hover:text-white/40 transition-colors duration-300">↗</span>
                             </a>
 
                         </div>
