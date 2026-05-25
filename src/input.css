@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SF-Light";
+    src: url("./assets/fonts/SF-Pro-Display-Light.otf");
+}
+@font-face {
+    font-family: "SF-Thin";
+    src: url("./assets/fonts/SF-Pro-Display-Thin.otf");
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background: gray;
+}
+@layer utilities {
+  .animation-pause {
+    animation-play-state: paused;
+  }
+}
+
+/* Force custom cursor on desktop — prevents cursor-pointer on children from overriding cursor:none */
+@media (min-width: 768px) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Dot grid hero background */
+.hero-dots::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 50%, black 5%, transparent 72%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 50%, black 5%, transparent 72%);
+  pointer-events: none;
+  z-index: 0;
+}

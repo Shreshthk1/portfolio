@@ -1,0 +1,17 @@
+circle {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dasharray: 471;
+    stroke-dashoffset: 471;
+    animation: clock-animation 2s linear;
+    position: absolute;
+  }
+  @keyframes clock-animation {
+    0% {
+      stroke-dashoffset: 471;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }

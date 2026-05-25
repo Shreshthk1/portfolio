@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Rename-Item \"e:\\\\Personal Projects\\\\ShreshthKumar.com\\\\shreshthkumar\\\\src\\\\assets\\\\images\\\\IMG_7807.JPG\" \"IMG_7807.jpg\")",
+      "Bash(Rename-Item \"e:\\\\Personal Projects\\\\ShreshthKumar.com\\\\shreshthkumar\\\\src\\\\assets\\\\images\\\\IMG_3021.JPG\" \"IMG_3021.jpg\")",
+      "Bash(npm run *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}

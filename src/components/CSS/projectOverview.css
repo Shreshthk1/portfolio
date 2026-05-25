@@ -1,0 +1,20 @@
+.backgroundOverlay::before{
+    content: "''";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    margin-bottom: 1rem;
+    z-index: 10;
+    backdrop-filter:blur(10px);
+}
+
+.backgroundOverlay:hover::before {
+    animation: overlayFadeOut 0.5s ease-out forwards;
+}
+
+@keyframes overlayFadeOut {
+    0% {backdrop-filter:blur(10px); }
+    100% {backdrop-filter:blur(0px); }
+}
