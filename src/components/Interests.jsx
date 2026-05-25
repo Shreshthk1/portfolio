@@ -56,8 +56,8 @@ export const Interests = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
-                    <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
+                    <span className="font-SFThin text-white/35 text-[10px] tracking-widest uppercase">Scroll</span>
+                    <div className="w-px h-10 bg-gradient-to-b from-white/30 to-transparent"></div>
                 </div>
             </section>
 
@@ -68,7 +68,7 @@ export const Interests = () => {
                     className={`transition-all duration-700 delay-150 ${isGridVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-10 sm:mb-14">
-                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">What I Love</span>
+                        <span className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">What I Love</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -86,10 +86,10 @@ export const Interests = () => {
 
                             {/* Top row */}
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Hockey</p>
+                                <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Hockey</p>
                                 <div className="flex items-center gap-2">
                                     <span className="w-1.5 h-1.5 rounded-full bg-red-500/80 animate-pulse"></span>
-                                    <span className="font-SFThin text-white/45 sm:text-white/20 text-[9px] sm:text-[8px] tracking-[0.3em] uppercase">NHL</span>
+                                    <span className="font-SFThin text-white/35 text-[10px] tracking-[0.3em] uppercase">NHL</span>
                                 </div>
                             </div>
 
@@ -101,7 +101,7 @@ export const Interests = () => {
                                 <h2 className="font-SFThin text-white leading-none tracking-tight" style={{ fontSize: 'clamp(2.5rem, 7vw, 5rem)' }}>
                                     Calgary<br />Flames
                                 </h2>
-                                <p className="font-SFThin text-white/45 sm:text-white/20 text-[11px] sm:text-[10px] mt-4 tracking-[0.25em] uppercase">Western · Pacific Division</p>
+                                <p className="font-SFThin text-white/35 text-[10px] mt-4 tracking-[0.25em] uppercase">Western · Pacific Division</p>
                             </div>
                         </div>
 
@@ -134,7 +134,7 @@ export const Interests = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/10 pointer-events-none"></div>
                             <div className="absolute inset-0 bg-gradient-to-br from-blue-950/30 to-transparent pointer-events-none"></div>
 
-                            <p className="relative z-10 font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Cricket</p>
+                            <p className="relative z-10 font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Cricket</p>
                             <div className="relative z-10">
                                 <p className="font-SFThin text-orange-400/60 text-[9px] tracking-[0.35em] uppercase mb-2">Kumar · #11</p>
                                 <h2 className="font-SFThin text-white text-2xl sm:text-3xl leading-none tracking-tight">Indian<br />Cricket</h2>
@@ -151,10 +151,10 @@ export const Interests = () => {
                                 backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 11px, rgba(255,200,100,0.6) 11px, rgba(255,200,100,0.6) 12px)'
                             }}></div>
 
-                            <p className="relative z-10 font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Craft</p>
+                            <p className="relative z-10 font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Craft</p>
                             <div className="relative z-10">
                                 <h2 className="font-SFThin text-white text-2xl sm:text-3xl leading-none tracking-tight">Wood-<br />working</h2>
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] mt-3 tracking-[0.2em] uppercase">Built by hand.</p>
+                                <p className="font-SFThin text-white/40 text-[10px] mt-3 tracking-[0.2em] uppercase">Built by hand.</p>
                             </div>
                         </div>
 
@@ -204,7 +204,7 @@ export const Interests = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent pointer-events-none"></div>
 
                             <div className="relative z-10">
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase mb-3">Obviously</p>
+                                <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase mb-3">Obviously</p>
                                 <h2 className="font-SFThin text-white text-3xl sm:text-4xl lg:text-5xl leading-none tracking-tight">Coding</h2>
                             </div>
                             <div className="relative z-10 font-mono text-[11px] sm:text-sm leading-relaxed text-left sm:text-right">

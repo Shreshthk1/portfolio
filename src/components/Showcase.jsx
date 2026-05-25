@@ -50,8 +50,8 @@ export const Showcase = () => {
                     style={fadeUp(700).style}
                     className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(700).className}`}
                 >
-                    <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
-                    <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
+                    <span className="font-SFThin text-white/35 text-[10px] tracking-widest uppercase">Scroll</span>
+                    <div className="w-px h-10 bg-gradient-to-b from-white/30 to-transparent"></div>
                 </div>
             </section>
 
@@ -62,7 +62,7 @@ export const Showcase = () => {
                     className={`transition-all duration-700 delay-150 ${isGridVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                 >
                     <div className="flex items-center gap-4 sm:gap-5 mb-10 sm:mb-14">
-                        <span className="font-SFThin text-white/50 sm:text-white/30 text-[11px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Projects</span>
+                        <span className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">Projects</span>
                         <div className="flex-1 h-px bg-white/10"></div>
                     </div>
 
@@ -81,8 +81,8 @@ export const Showcase = () => {
                             </div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Web App</p>
-                                <span className="font-SFThin text-white/45 sm:text-white/20 text-[9px] sm:text-[8px] tracking-[0.3em] uppercase border border-white/20 sm:border-white/10 px-2.5 py-1 rounded-full">Featured</span>
+                                <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Web App</p>
+                                <span className="font-SFThin text-white/40 text-[9px] tracking-[0.3em] uppercase border border-white/15 px-2.5 py-1 rounded-full">Featured</span>
                             </div>
 
                             <div className="relative z-10">
@@ -106,7 +106,7 @@ export const Showcase = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-black/20 pointer-events-none"></div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Business Site</p>
+                                <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Business Site</p>
                                 <span className="font-SFThin text-white/[0.05] text-5xl leading-none font-bold select-none">02</span>
                             </div>
 
@@ -129,7 +129,7 @@ export const Showcase = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/65 to-black/20 pointer-events-none"></div>
 
                             <div className="relative z-10 flex items-center justify-between">
-                                <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Web App</p>
+                                <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Web App</p>
                                 <span className="font-SFThin text-white/[0.05] text-5xl leading-none font-bold select-none">03</span>
                             </div>
 
@@ -157,8 +157,8 @@ export const Showcase = () => {
 
                             <div className="relative z-10">
                                 <div className="flex items-center gap-3 mb-3">
-                                    <p className="font-SFThin text-white/50 sm:text-white/25 text-[10px] sm:text-[9px] tracking-[0.4em] uppercase">Social Game</p>
-                                    <span className="flex items-center gap-1.5 font-SFThin text-white/55 sm:text-white/30 text-[9px] sm:text-[8px] tracking-[0.25em] uppercase border border-white/20 sm:border-white/10 px-2.5 py-1 rounded-full">
+                                    <p className="font-SFThin text-white/40 text-[10px] tracking-[0.4em] uppercase">Social Game</p>
+                                    <span className="flex items-center gap-1.5 font-SFThin text-white/45 text-[9px] tracking-[0.25em] uppercase border border-white/15 px-2.5 py-1 rounded-full">
                                         <span className="w-1.5 h-1.5 rounded-full bg-amber-400/70 animate-pulse"></span>
                                         In Progress
                                     </span>
