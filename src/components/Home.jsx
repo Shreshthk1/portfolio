@@ -74,7 +74,7 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 left-6 sm:left-10 ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">
+                        <span className="font-SFThin text-white/35 text-[10px] tracking-[0.3em] uppercase">
                             Calgary, AB
                         </span>
                     </div>
@@ -84,8 +84,8 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/40 sm:text-white/20 text-[11px] sm:text-[9px] tracking-widest uppercase">Scroll</span>
-                        <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent"></div>
+                        <span className="font-SFThin text-white/35 text-[10px] tracking-widest uppercase">Scroll</span>
+                        <div className="w-px h-10 bg-gradient-to-b from-white/30 to-transparent"></div>
                     </div>
 
                     {/* Bottom-right: year */}
@@ -93,7 +93,7 @@ export const Home = () => {
                         style={fadeUp(800).style}
                         className={`absolute bottom-8 right-6 sm:right-10 ${fadeUp(800).className}`}
                     >
-                        <span className="font-SFThin text-white/40 sm:text-white/15 text-[11px] sm:text-[9px] tracking-[0.3em] uppercase">
+                        <span className="font-SFThin text-white/35 text-[10px] tracking-[0.3em] uppercase">
                             2026
                         </span>
                     </div>
@@ -106,7 +106,7 @@ export const Home = () => {
                         className={`transition-all duration-700 delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                     >
                         <div className="flex items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
-                            <span className="font-SFThin text-white/30 text-[9px] sm:text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">
+                            <span className="font-SFThin text-white/45 text-[10px] tracking-[0.4em] uppercase whitespace-nowrap">
                                 Selected Work
                             </span>
                             <div className="flex-1 h-px bg-white/10"></div>
