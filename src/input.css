@@ -11,7 +11,8 @@
     src: url("./assets/fonts/SF-Pro-Display-Thin.otf");
 }
 
-body {
+body, html {
+    background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

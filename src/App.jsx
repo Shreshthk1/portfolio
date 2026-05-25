@@ -7,6 +7,7 @@ import { Interests } from './components/Interests.jsx'
 import { Showcase } from './components/Showcase.jsx'
 import { Contact } from './components/Contact.jsx'
 import { NotFound } from './components/NotFound.jsx'
+import { ScrollToTop } from './components/ScrollToTop.jsx'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className=' md:cursor-none lg:cursor-none'>
       <CursorHandler></CursorHandler>
       <BrowserRouter basename='/'>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/profile' element={<Profile/>}></Route>
