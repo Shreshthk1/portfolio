@@ -45,7 +45,7 @@ export const Home = () => {
                             className={`flex items-center justify-center gap-3 sm:gap-5 mt-4 sm:mt-6 ${fadeUp(280).className}`}
                         >
                             <span className="block w-5 sm:w-10 h-px bg-white/30"></span>
-                            <p className="font-SFThin text-white/40 text-[9px] sm:text-[11px] tracking-[0.38em] uppercase">
+                            <p className="font-SFThin text-white/60 text-[9px] sm:text-[11px] tracking-[0.38em] uppercase">
                                 Full Stack Developer
                             </p>
                             <span className="block w-5 sm:w-10 h-px bg-white/30"></span>
@@ -54,7 +54,7 @@ export const Home = () => {
                         {/* Tagline */}
                         <p
                             style={fadeUp(520).style}
-                            className={`font-SFThin text-white/40 sm:text-white/20 text-xs sm:text-sm mt-6 sm:mt-8 tracking-wide ${fadeUp(520).className}`}
+                            className={`font-SFThin text-white/40 sm:text-white/40 text-xs sm:text-sm mt-6 sm:mt-8 tracking-wide ${fadeUp(520).className}`}
                         >
                             Building things that work for people.
                         </p>
