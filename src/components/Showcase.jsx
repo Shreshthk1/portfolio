@@ -136,10 +136,18 @@ export const Showcase = () => {
                             <div className="relative z-10">
                                 <h2 className="font-SFThin text-white text-2xl sm:text-3xl leading-none tracking-tight">RiteSlice</h2>
                                 <p className="font-SFThin text-white/55 sm:text-white/35 text-xs mt-2 leading-relaxed">Concept site for a pizza shop — menu, ordering flow, and brand identity built from scratch.</p>
-                                <div className="flex flex-wrap gap-1.5 mt-3">
-                                    {['React', 'Node.js', 'SQL', 'Tailwind'].map(t => (
+                                <div className="flex flex-wrap items-center gap-1.5 mt-3">
+                                    {['React', 'Tailwind'].map(t => (
                                         <span key={t} className="font-SFThin text-white/60 sm:text-white/40 text-[9px] sm:text-[8px] tracking-[0.12em] uppercase border border-white/25 sm:border-white/15 px-2.5 py-1 rounded-full">{t}</span>
                                     ))}
+                                    <a
+                                        href="https://riteslice.netlify.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-SFThin text-white/40 text-[9px] sm:text-[8px] tracking-[0.12em] uppercase border border-white/15 px-2.5 py-1 rounded-full hover:border-white/30 hover:text-white/60 transition-all duration-300"
+                                    >
+                                        Visit Site ↗
+                                    </a>
                                 </div>
                             </div>
                         </div>

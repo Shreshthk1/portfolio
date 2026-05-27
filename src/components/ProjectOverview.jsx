@@ -3,20 +3,25 @@ import pearlImg from "../assets/images/Pearl_Printers.png"
 import riteSliceImg from "../assets/images/RiteSlice.png"
 
 export const ProjectOverview = () => {
-    const ProjectCard = ({ title, description, image, gradient }) => (
-        <div className="group cursor-pointer">
-            <div className="relative overflow-hidden rounded-xl w-full h-48 sm:h-56 md:h-64 lg:h-72">
-                <div
-                    className="absolute inset-0 bg-zinc-900 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
-                    style={image ? { backgroundImage: `url(${image})` } : gradient ? { background: gradient } : {}}
-                ></div>
+    const ProjectCard = ({ title, description, image, gradient, href }) => {
+        const inner = (
+            <div className="group cursor-pointer">
+                <div className="relative overflow-hidden rounded-xl w-full h-48 sm:h-56 md:h-64 lg:h-72">
+                    <div
+                        className="absolute inset-0 bg-zinc-900 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
+                        style={image ? { backgroundImage: `url(${image})` } : gradient ? { background: gradient } : {}}
+                    ></div>
+                </div>
+                <div className="pt-4 pb-2 px-1">
+                    <h2 className="text-white font-SFLight text-base sm:text-lg md:text-xl">{title}</h2>
+                    <p className="text-white/40 font-SFThin text-xs sm:text-sm mt-1 leading-relaxed">{description}</p>
+                </div>
             </div>
-            <div className="pt-4 pb-2 px-1">
-                <h2 className="text-white font-SFLight text-base sm:text-lg md:text-xl">{title}</h2>
-                <p className="text-white/40 font-SFThin text-xs sm:text-sm mt-1 leading-relaxed">{description}</p>
-            </div>
-        </div>
-    )
+        )
+        return href
+            ? <a href={href} target="_blank" rel="noopener noreferrer">{inner}</a>
+            : inner
+    }
 
     const projects = [
         {
@@ -33,6 +38,7 @@ export const ProjectOverview = () => {
             title: 'RiteSlice',
             description: 'Streamlined food ordering experience with real-time kitchen tracking.',
             image: riteSliceImg,
+            href: 'https://riteslice.netlify.app/',
         },
         {
             title: 'Act It Out',
